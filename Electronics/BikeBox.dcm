@@ -1,3 +1,7 @@
-EESchema-DOCLIB  Version 2.0  Date: 8/2/2012 11:12:42 AM
+EESchema-DOCLIB  Version 2.0  Date: 8/2/2012 3:08:22 PM
+#
+$CMP TDA1562
+F Datasheets/TDA1562Q_ST_SD.pdf
+$ENDCMP
 #
 #End Doc Library
