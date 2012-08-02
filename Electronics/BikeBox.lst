@@ -1,0 +1,27 @@
+eeschema (2011-07-08 BZR 3044)-stable  >> Creation date: 8/2/2012 3:53:19 PM
+
+#Cmp ( order = Reference )
+| BT?        BATTERY     ;             
+| C?         100nF       ;             
+| D?         LED         ;             
+| F?         FUSE        ;             
+| IC?        TDA1562     ;             
+| K?         CONN_3      ;             
+| R?         100k        ;             
+| SP?        SPEAKER     ;             
+| SW?        SWITCH_INV  ;             
+#End Cmp
+
+#Cmp ( order = Value )
+| 100k         R?        ;             
+| 100nF        C?        ;             
+| BATTERY      BT?       ;             
+| CONN_3       K?        ;             
+| FUSE         F?        ;             
+| LED          D?        ;             
+| SPEAKER      SP?       ;             
+| SWITCH_INV   SW?       ;             
+| TDA1562      IC?       ;             
+#End Cmp
+
+#End List
