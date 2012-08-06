@@ -1,187 +1,286 @@
-# EESchema Netlist Version 1.1 created  8/2/2012 3:54:37 PM
+# EESchema Netlist Version 1.1 created  8/2/2012 4:35:36 PM
 (
- ( /501ABD40/501AE822 $noname  SP2 SPEAKER {Lib=SPEAKER}
-  (    1 ? )
-  (    2 ? )
+ ( /501ABD40/501ADF0F C2 BT1 BATTERY
+  ( 1 N-000040 )
+  ( 2 GND )
  )
- ( /501ABD40/501AE81D $noname  SP1 SPEAKER {Lib=SPEAKER}
-  (    1 ? )
-  (    2 ? )
+ ( /501ABAFF/501AB0FF SM0805 C1 10uF
+  ( 1 N-000032 )
+  ( 2 GND )
  )
- ( /501ABD40/501AE6F6 $noname  SW1 SWITCH_INV {Lib=SWITCH_INV}
-  (    1 ? )
-  (    2 GND )
-  (    3 /Connectors/StandBySwitch+ )
+ ( /501ABAFF/501AAE08 SM0805 C2 100nF
+  ( 1 N-000026 )
+  ( 2 /Right_Channel/AudioInput )
  )
- ( /501ABD40/501AE2BE $noname  K1 CONN_3 {Lib=CONN_3}
-  (    1 GND )
-  (    2 /Right_Channel/AudioInput )
-  (    3 /Left_Channel/AudioInput )
+ ( /501ABAFF/501AAE14 SM0805 C3 100nF
+  ( 1 N-000023 )
+  ( 2 GND )
  )
- ( /501ABD40/501ADFA8 $noname  F1 FUSE {Lib=FUSE}
-  (    1 N-000040 )
-  (    2 V+ )
+ ( /501ABAFF/501AAE22 SM0805 C4 10uF
+  ( 1 N-000027 )
+  ( 2 GND )
  )
- ( /501ABD40/501ADF0F $noname  BT1 BATTERY {Lib=BATTERY}
-  (    1 N-000040 )
-  (    2 GND )
+ ( /501ABAFF/501AADE8 C2 C5 4700uF
+  ( 1 N-000025 )
+  ( 2 N-000024 )
  )
- ( /501ABAFF/501AB189 $noname  R1 1M {Lib=R}
-  (    1 /Right_Channel/AudioInput )
-  (    2 GND )
+ ( /501ABAFF/501AADFF C2 C6 4700uF
+  ( 1 ? )
+  ( 2 ? )
  )
- ( /501ABAFF/501AB0FF $noname  C1 10uF {Lib=C}
-  (    1 N-000032 )
-  (    2 GND )
+ ( /501ABAFF/501AAE33 SM0805 C7 100nF
+  ( 1 V+ )
+  ( 2 GND )
  )
- ( /501ABAFF/501AB0EA $noname  R2 1k {Lib=R}
-  (    1 N-000032 )
-  (    2 /Connectors/StandBySwitch+ )
+ ( /501ABAFF/501AAE97 C2 C8 2200uF
+  ( 1 V+ )
+  ( 2 GND )
  )
- ( /501ABAFF/501AB09B $noname  R3 100k {Lib=R}
-  (    1 V+ )
-  (    2 N-000032 )
+ ( /501AA789/501AB0FF SM0805 C9 10uF
+  ( 1 N-000021 )
+  ( 2 GND )
  )
- ( /501ABAFF/501AB045 $noname  R4 4k7 {Lib=R}
-  (    1 V+ )
-  (    2 N-000029 )
+ ( /501AA789/501AAE08 SM0805 C10 100nF
+  ( 1 N-000010 )
+  ( 2 /Left_Channel/AudioInput )
  )
- ( /501ABAFF/501AB020 $noname  D1 LED {Lib=LED}
-  (    1 N-000029 )
-  (    2 N-000028 )
+ ( /501AA789/501AAE14 SM0805 C11 100nF
+  ( 1 N-000013 )
+  ( 2 GND )
  )
- ( /501ABAFF/501AAE97 $noname  C8 2200uF {Lib=C}
-  (    1 V+ )
-  (    2 GND )
+ ( /501AA789/501AAE22 SM0805 C12 10uF
+  ( 1 N-000009 )
+  ( 2 GND )
  )
- ( /501ABAFF/501AAE33 $noname  C7 100nF {Lib=C}
-  (    1 V+ )
-  (    2 GND )
+ ( /501AA789/501AADE8 C2 C13 4700uF
+  ( 1 N-000011 )
+  ( 2 N-000012 )
  )
- ( /501ABAFF/501AAE22 $noname  C4 10uF {Lib=C}
-  (    1 N-000027 )
-  (    2 GND )
+ ( /501AA789/501AADFF C2 C14 4700uF
+  ( 1 ? )
+  ( 2 ? )
  )
- ( /501ABAFF/501AAE14 $noname  C3 100nF {Lib=C}
-  (    1 N-000023 )
-  (    2 GND )
+ ( /501AA789/501AAE33 SM0805 C15 100nF
+  ( 1 V+ )
+  ( 2 GND )
  )
- ( /501ABAFF/501AAE08 $noname  C2 100nF {Lib=C}
-  (    1 N-000026 )
-  (    2 /Right_Channel/AudioInput )
+ ( /501AA789/501AAE97 C2 C16 2200uF
+  ( 1 V+ )
+  ( 2 GND )
  )
- ( /501ABAFF/501AADFF $noname  C6 4700uF {Lib=C}
-  (    1 ? )
-  (    2 ? )
+ ( /501ABAFF/501AB020 LED-0805 D1 LED
+  ( 1 N-000029 )
+  ( 2 N-000028 )
  )
- ( /501ABAFF/501AADE8 $noname  C5 4700uF {Lib=C}
-  (    1 N-000025 )
-  (    2 N-000024 )
+ ( /501AA789/501AB020 LED-0805 D2 LED
+  ( 1 N-000015 )
+  ( 2 N-000014 )
  )
- ( /501ABAFF/501AA7BF $noname  IC1 TDA1562 {Lib=TDA1562}
-  (    1 N-000026 )
-  (    2 N-000023 )
-  (    3 N-000024 )
-  (    4 N-000032 )
-  (    5 N-000025 )
-  (    6 GND )
-  (    7 ? )
-  (    8 N-000028 )
-  (    9 V+ )
-  (   10 V+ )
-  (   11 ? )
-  (   12 GND )
-  (   13 ? )
-  (   14 N-000027 )
-  (   15 ? )
-  (   16 ? )
-  (   17 GND )
+ ( /501ABD40/501ADFA8 FUSE5-20 F1 FUSE
+  ( 1 N-000040 )
+  ( 2 V+ )
  )
- ( /501AA789/501AB189 $noname  R5 1M {Lib=R}
-  (    1 /Left_Channel/AudioInput )
-  (    2 GND )
+ ( /501ABAFF/501AA7BF $noname$ IC1 TDA1562
+  ( 1 N-000026 )
+  ( 2 N-000023 )
+  ( 3 N-000024 )
+  ( 4 N-000032 )
+  ( 5 N-000025 )
+  ( 6 GND )
+  ( 7 ? )
+  ( 8 N-000028 )
+  ( 9 V+ )
+  ( 10 V+ )
+  ( 11 ? )
+  ( 12 GND )
+  ( 13 ? )
+  ( 14 N-000027 )
+  ( 15 ? )
+  ( 16 ? )
+  ( 17 GND )
  )
- ( /501AA789/501AB0FF $noname  C9 10uF {Lib=C}
-  (    1 N-000021 )
-  (    2 GND )
+ ( /501AA789/501AA7BF $noname$ IC2 TDA1562
+  ( 1 N-000010 )
+  ( 2 N-000013 )
+  ( 3 N-000012 )
+  ( 4 N-000021 )
+  ( 5 N-000011 )
+  ( 6 GND )
+  ( 7 ? )
+  ( 8 N-000014 )
+  ( 9 V+ )
+  ( 10 V+ )
+  ( 11 ? )
+  ( 12 GND )
+  ( 13 ? )
+  ( 14 N-000009 )
+  ( 15 ? )
+  ( 16 ? )
+  ( 17 GND )
  )
- ( /501AA789/501AB0EA $noname  R6 1k {Lib=R}
-  (    1 N-000021 )
-  (    2 /Connectors/StandBySwitch+ )
+ ( /501ABD40/501AE2BE SIL-3 K1 CONN_3
+  ( 1 GND )
+  ( 2 /Right_Channel/AudioInput )
+  ( 3 /Left_Channel/AudioInput )
  )
- ( /501AA789/501AB09B $noname  R7 100k {Lib=R}
-  (    1 V+ )
-  (    2 N-000021 )
+ ( /501ABAFF/501AB189 SM0805 R1 1M
+  ( 1 /Right_Channel/AudioInput )
+  ( 2 GND )
  )
- ( /501AA789/501AB045 $noname  R8 4k7 {Lib=R}
-  (    1 V+ )
-  (    2 N-000015 )
+ ( /501ABAFF/501AB0EA SM0805 R2 1k
+  ( 1 N-000032 )
+  ( 2 /Connectors/StandBySwitch+ )
  )
- ( /501AA789/501AB020 $noname  D2 LED {Lib=LED}
-  (    1 N-000015 )
-  (    2 N-000014 )
+ ( /501ABAFF/501AB09B SM0805 R3 100k
+  ( 1 V+ )
+  ( 2 N-000032 )
  )
- ( /501AA789/501AAE97 $noname  C16 2200uF {Lib=C}
-  (    1 V+ )
-  (    2 GND )
+ ( /501ABAFF/501AB045 SM0805 R4 4k7
+  ( 1 V+ )
+  ( 2 N-000029 )
  )
- ( /501AA789/501AAE33 $noname  C15 100nF {Lib=C}
-  (    1 V+ )
-  (    2 GND )
+ ( /501AA789/501AB189 SM0805 R5 1M
+  ( 1 /Left_Channel/AudioInput )
+  ( 2 GND )
  )
- ( /501AA789/501AAE22 $noname  C12 10uF {Lib=C}
-  (    1 N-000009 )
-  (    2 GND )
+ ( /501AA789/501AB0EA SM0805 R6 1k
+  ( 1 N-000021 )
+  ( 2 /Connectors/StandBySwitch+ )
  )
- ( /501AA789/501AAE14 $noname  C11 100nF {Lib=C}
-  (    1 N-000013 )
-  (    2 GND )
+ ( /501AA789/501AB09B SM0805 R7 100k
+  ( 1 V+ )
+  ( 2 N-000021 )
  )
- ( /501AA789/501AAE08 $noname  C10 100nF {Lib=C}
-  (    1 N-000010 )
-  (    2 /Left_Channel/AudioInput )
+ ( /501AA789/501AB045 SM0805 R8 4k7
+  ( 1 V+ )
+  ( 2 N-000015 )
  )
- ( /501AA789/501AADFF $noname  C14 4700uF {Lib=C}
-  (    1 ? )
-  (    2 ? )
+ ( /501ABD40/501AE81D SIL-2 SP1 SPEAKER
+  ( 1 ? )
+  ( 2 ? )
  )
- ( /501AA789/501AADE8 $noname  C13 4700uF {Lib=C}
-  (    1 N-000011 )
-  (    2 N-000012 )
+ ( /501ABD40/501AE822 SIL-2 SP2 SPEAKER
+  ( 1 ? )
+  ( 2 ? )
  )
- ( /501AA789/501AA7BF $noname  IC2 TDA1562 {Lib=TDA1562}
-  (    1 N-000010 )
-  (    2 N-000013 )
-  (    3 N-000012 )
-  (    4 N-000021 )
-  (    5 N-000011 )
-  (    6 GND )
-  (    7 ? )
-  (    8 N-000014 )
-  (    9 V+ )
-  (   10 V+ )
-  (   11 ? )
-  (   12 GND )
-  (   13 ? )
-  (   14 N-000009 )
-  (   15 ? )
-  (   16 ? )
-  (   17 GND )
+ ( /501ABD40/501AE6F6 SW_SPDT SW1 SWITCH_INV
+  ( 1 ? )
+  ( 2 GND )
+  ( 3 /Connectors/StandBySwitch+ )
  )
 )
 *
 { Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component C12
+ SM*
+ C?
+ C1-1
+$endlist
+$component C13
+ SM*
+ C?
+ C1-1
+$endlist
+$component C14
+ SM*
+ C?
+ C1-1
+$endlist
+$component C15
+ SM*
+ C?
+ C1-1
+$endlist
+$component C16
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component IC1
+ ZIP17
+$endlist
+$component IC2
+ ZIP17
+$endlist
 $component R1
  R?
  SM0603
  SM0805
  R?-*
  SM1206
-$endlist
-$component C1
- SM*
- C?
- C1-1
 $endlist
 $component R2
  R?
@@ -204,64 +303,12 @@ $component R4
  R?-*
  SM1206
 $endlist
-$component D1
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component C8
- SM*
- C?
- C1-1
-$endlist
-$component C7
- SM*
- C?
- C1-1
-$endlist
-$component C4
- SM*
- C?
- C1-1
-$endlist
-$component C3
- SM*
- C?
- C1-1
-$endlist
-$component C2
- SM*
- C?
- C1-1
-$endlist
-$component C6
- SM*
- C?
- C1-1
-$endlist
-$component C5
- SM*
- C?
- C1-1
-$endlist
-$component IC1
- ZIP17
-$endlist
 $component R5
  R?
  SM0603
  SM0805
  R?-*
  SM1206
-$endlist
-$component C9
- SM*
- C?
- C1-1
 $endlist
 $component R6
  R?
@@ -284,158 +331,5 @@ $component R8
  R?-*
  SM1206
 $endlist
-$component D2
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component C16
- SM*
- C?
- C1-1
-$endlist
-$component C15
- SM*
- C?
- C1-1
-$endlist
-$component C12
- SM*
- C?
- C1-1
-$endlist
-$component C11
- SM*
- C?
- C1-1
-$endlist
-$component C10
- SM*
- C?
- C1-1
-$endlist
-$component C14
- SM*
- C?
- C1-1
-$endlist
-$component C13
- SM*
- C?
- C1-1
-$endlist
-$component IC2
- ZIP17
-$endlist
 $endfootprintlist
 }
-{ Pin List by Nets
-Net 1 "GND" "GND"
- BT1 2
- R5 2
- IC2 17
- C9 2
- IC2 12
- C16 2
- C15 2
- SW1 2
- IC2 6
- K1 1
- C11 2
- C12 2
- IC1 12
- R1 2
- C1 2
- IC1 6
- C8 2
- C7 2
- IC1 17
- C4 2
- C3 2
-Net 2 "/Right Channel/AudioInput" "AudioInput"
- C2 2
- K1 2
- R1 1
-Net 7 "/Left Channel/AudioInput" "AudioInput"
- C10 2
- K1 3
- R5 1
-Net 8 "/Connectors/StandBySwitch+" "StandBySwitch+"
- R6 2
- SW1 3
- R2 2
-Net 9 "" ""
- IC2 14
- C12 1
-Net 10 "" ""
- C10 1
- IC2 1
-Net 11 "" ""
- IC2 5
- C13 1
-Net 12 "" ""
- IC2 3
- C13 2
-Net 13 "" ""
- C11 1
- IC2 2
-Net 14 "" ""
- D2 2
- IC2 8
-Net 15 "" ""
- D2 1
- R8 2
-Net 21 "" ""
- IC2 4
- C9 1
- R6 1
- R7 2
-Net 22 "V+" "V+"
- C7 1
- IC1 9
- R4 1
- R3 1
- C8 1
- IC1 10
- R7 1
- R8 1
- C16 1
- IC2 10
- C15 1
- IC2 9
- F1 2
-Net 23 "" ""
- IC1 2
- C3 1
-Net 24 "" ""
- C5 2
- IC1 3
-Net 25 "" ""
- IC1 5
- C5 1
-Net 26 "" ""
- IC1 1
- C2 1
-Net 27 "" ""
- IC1 14
- C4 1
-Net 28 "" ""
- IC1 8
- D1 2
-Net 29 "" ""
- D1 1
- R4 2
-Net 32 "" ""
- IC1 4
- R2 1
- C1 1
- R3 2
-Net 40 "" ""
- F1 1
- BT1 1
-}
-#End
